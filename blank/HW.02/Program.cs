@@ -16,8 +16,18 @@ namespace HW._02
             //7. В цикле массив из битов записать в объект
             //8. Сохранить изображение по адресу D:\Home\image.png
 
+            StreamReader textReader = new StreamReader(@"D:\Home\image.txt", true); 
+            string textReaderResult = textReader.ReadToEnd(); 
+            textReader.Dispose(); 
+            string[] arrayOfTextResult = textReaderResult.Split(' '); 
+            byte[] imageBytes = new byte[arrayOfTextResult.Length - 1]; 
 
-
+            for (int i = 0; i < arrayOfTextResult.Length - 1; i++)
+            {
+                byte binary = Convert.ToByte(arrayOfTextResult[i], 2); 
+                imageBytes[i] = binary; 
+            }
+            File.WriteAllBytes(@"D:\Home\image.png", imageBytes); 
         }
     }
 }
