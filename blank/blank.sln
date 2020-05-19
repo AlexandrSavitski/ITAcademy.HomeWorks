@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Image", "Image", "{480EDE70
 		..\..\image.png = ..\..\image.png
 	EndProjectSection
 EndProject
+hm_09
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyOne", "AssemblyOne\AssemblyOne.csproj", "{D0F53922-8C52-4395-81D3-3CC0064FE654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyTwo", "AssemblyTwo\AssemblyTwo.csproj", "{737D917D-2BE2-4117-96BC-96E7E202582D}"
 hm_08
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW08", "HW08\HW08.csproj", "{3A4315BD-9D05-40CC-A057-798464602D21}"
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW06.Task1", "HW06.Task1\HW06.Task1.csproj", "{EC500678-58EA-4EA5-BE14-455EB271917C}"
@@ -45,6 +49,15 @@ Global
 		{8E357CA4-0405-41A9-AA82-C76CA80A031A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E357CA4-0405-41A9-AA82-C76CA80A031A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E357CA4-0405-41A9-AA82-C76CA80A031A}.Release|Any CPU.Build.0 = Release|Any CPU
+hm_09
+		{D0F53922-8C52-4395-81D3-3CC0064FE654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F53922-8C52-4395-81D3-3CC0064FE654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F53922-8C52-4395-81D3-3CC0064FE654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F53922-8C52-4395-81D3-3CC0064FE654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{737D917D-2BE2-4117-96BC-96E7E202582D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737D917D-2BE2-4117-96BC-96E7E202582D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737D917D-2BE2-4117-96BC-96E7E202582D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737D917D-2BE2-4117-96BC-96E7E202582D}.Release|Any CPU.Build.0 = Release|Any CPU
 hm_08
 		{3A4315BD-9D05-40CC-A057-798464602D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3A4315BD-9D05-40CC-A057-798464602D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
@@ -74,6 +87,7 @@ hm_08
 		{F67F1BC2-C21A-4875-939C-4ECBCB926983}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F67F1BC2-C21A-4875-939C-4ECBCB926983}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F67F1BC2-C21A-4875-939C-4ECBCB926983}.Release|Any CPU.Build.0 = Release|Any CPU
+master
  master
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
